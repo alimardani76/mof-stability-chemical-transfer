@@ -1,0 +1,17 @@
+form,holdout,family_count,model,mean_equal_family_spearman,provenance
+ASR,element,13,Pore and density B,0.082,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,element,13,B + chemistry C,0.412,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,element,13,B + C + coordination L,0.471,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,element,13,B + C + L + donor attachment I (P),0.489,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,element,11,Pore and density B,0.183,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,element,11,B + chemistry C,0.333,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,element,11,B + C + coordination L,0.401,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,element,11,B + C + L + donor attachment I (P),0.423,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,allnodes,5,Pore and density B,0.06,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,allnodes,5,B + chemistry C,0.593,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,allnodes,5,B + C + coordination L,0.588,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,allnodes,5,B + C + L + donor attachment I (P),0.621,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,allnodes,5,Pore and density B,0.111,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,allnodes,5,B + chemistry C,0.522,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,allnodes,5,B + C + coordination L,0.556,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,allnodes,5,B + C + L + donor attachment I (P),0.582,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv

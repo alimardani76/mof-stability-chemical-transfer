@@ -1,0 +1,13 @@
+form,holdout,family_count,added_information,mean_paired_increment_rho,provenance
+ASR,element,13,Constitution C,0.33,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,element,13,Coordination shell L,0.059,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,element,13,Donor context I,0.018,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,element,11,Constitution C,0.15,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,element,11,Coordination shell L,0.068,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,element,11,Donor context I,0.022,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,allnodes,5,Constitution C,0.534,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,allnodes,5,Coordination shell L,-0.006,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+ASR,allnodes,5,Donor context I,0.034,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,allnodes,5,Constitution C,0.411,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,allnodes,5,Coordination shell L,0.034,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv
+FSR,allnodes,5,Donor context I,0.026,P1_v2 frozen author numeric macro snapshot; upstream GitHub table paths in SOURCE_FILE_MANIFEST.csv

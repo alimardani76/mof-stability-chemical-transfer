@@ -1,0 +1,24 @@
+name: Validate saved results and figures
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: figure_sources/requirements.txt
+      - run: python -m pip install -r figure_sources/requirements.txt
+      - name: Verify the distributed files before regeneration
+        run: python scripts/manifest.py
+      - name: Regenerate and validate offline with sibling access denied
+        run: python scripts/reproduce.py --isolated
+      - name: Check deterministic tables
+        run: python scripts/make_tables.py --check

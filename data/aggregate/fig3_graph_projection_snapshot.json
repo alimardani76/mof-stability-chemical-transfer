@@ -1,0 +1,538 @@
+{
+  "ASR-1180-1180": {
+    "sha": "09f1b1329127a5bdf311a0399b829281cb0f40b5",
+    "donor": "O3",
+    "motif": "O_carboxyl_like",
+    "held_family": "Zn",
+    "nodes": [
+      [
+        "O3",
+        "O",
+        2,
+        [
+          0,
+          0,
+          0
+        ],
+        0.5506809291,
+        -1.119665351
+      ],
+      [
+        "O21",
+        "O",
+        20,
+        [
+          0,
+          0,
+          0
+        ],
+        0.5506809291,
+        1.119665351
+      ],
+      [
+        "C49",
+        "C",
+        146,
+        [
+          0,
+          0,
+          0
+        ],
+        0.0,
+        0.0
+      ],
+      [
+        "C61",
+        "C",
+        158,
+        [
+          0,
+          0,
+          0
+        ],
+        -1.4921429275,
+        0.0
+      ],
+      [
+        "Cr1",
+        "Cr",
+        314,
+        [
+          0,
+          0,
+          0
+        ],
+        2.4316382515,
+        -1.660324697
+      ],
+      [
+        "Cr3",
+        "Cr",
+        316,
+        [
+          0,
+          0,
+          0
+        ],
+        2.4316382515,
+        1.660324697
+      ]
+    ],
+    "context": [
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "contacts": [
+      [
+        4,
+        0,
+        "cov15+crystalnn15"
+      ],
+      [
+        5,
+        1,
+        "cov15+crystalnn15"
+      ]
+    ],
+    "source_path": "figure_sources/selected_geometry/ASR-1180-1180_geometry.json",
+    "coordinates_note": "Published GitHub SVD 2D display projection; NOT a crystal bond-length drawing or unambiguous bond assignment.",
+    "repo_tree_sha": "65725ae2b8b7f25d15ba08e68632198cc0ddc954"
+  },
+  "ASR-1065-1065": {
+    "sha": "0b0c8bebb2e5c0244c6e5bbcc7eed7098b4d1c7d",
+    "donor": "O1",
+    "motif": "O_carboxyl_like",
+    "held_family": "Mn",
+    "nodes": [
+      [
+        "O1",
+        "O",
+        0,
+        [
+          0,
+          0,
+          0
+        ],
+        0.5695662601,
+        -1.1177251449
+      ],
+      [
+        "O7",
+        "O",
+        6,
+        [
+          0,
+          0,
+          0
+        ],
+        0.5695838557,
+        1.1177200911
+      ],
+      [
+        "C37",
+        "C",
+        52,
+        [
+          0,
+          0,
+          0
+        ],
+        -1.5017355625,
+        6.6624e-06
+      ],
+      [
+        "C38",
+        "C",
+        53,
+        [
+          0,
+          0,
+          0
+        ],
+        0,
+        0
+      ],
+      [
+        "Zn1",
+        "Zn",
+        90,
+        [
+          0,
+          0,
+          0
+        ],
+        2.5602470695,
+        -1.4833933704
+      ],
+      [
+        "Zn2",
+        "Zn",
+        91,
+        [
+          -1,
+          -1,
+          0
+        ],
+        2.5602704213,
+        1.4833706533
+      ]
+    ],
+    "context": [
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "contacts": [
+      [
+        4,
+        0,
+        "cov15+crystalnn15"
+      ],
+      [
+        5,
+        1,
+        "cov15+crystalnn15"
+      ]
+    ],
+    "source_path": "figure_sources/selected_geometry/ASR-1065-1065_geometry.json",
+    "coordinates_note": "Published GitHub SVD 2D display projection; NOT a crystal bond-length drawing or unambiguous bond assignment.",
+    "repo_tree_sha": "65725ae2b8b7f25d15ba08e68632198cc0ddc954"
+  },
+  "ASR-13-0013": {
+    "sha": "78aaa66e3259252109ddeba7cd531aec4abc7656",
+    "donor": "O1",
+    "motif": "O_carboxyl_like",
+    "held_family": "In",
+    "nodes": [
+      [
+        "O1",
+        "O",
+        0,
+        [
+          0,
+          0,
+          0
+        ],
+        -1.2586653073,
+        -0.1605254372
+      ],
+      [
+        "O2",
+        "O",
+        1,
+        [
+          0,
+          0,
+          0
+        ],
+        0.5066061336,
+        1.1495620691
+      ],
+      [
+        "C27",
+        "C",
+        78,
+        [
+          0,
+          0,
+          0
+        ],
+        0.886345438,
+        -1.1762156357
+      ],
+      [
+        "C29",
+        "C",
+        80,
+        [
+          0,
+          0,
+          0
+        ],
+        0,
+        0
+      ],
+      [
+        "Tb1",
+        "Tb",
+        218,
+        [
+          0,
+          0,
+          0
+        ],
+        -3.4810983409,
+        -0.6967188499
+      ],
+      [
+        "Tb3",
+        "Tb",
+        220,
+        [
+          0,
+          0,
+          0
+        ],
+        -1.3437481927,
+        2.6268177424
+      ]
+    ],
+    "context": [
+      [
+        3,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "contacts": [
+      [
+        4,
+        0,
+        "cov15+crystalnn15"
+      ],
+      [
+        5,
+        0,
+        "cov15+crystalnn15"
+      ],
+      [
+        5,
+        1,
+        "cov15+crystalnn15"
+      ]
+    ],
+    "source_path": "figure_sources/selected_geometry/ASR-13-0013_geometry.json",
+    "coordinates_note": "Published GitHub SVD 2D display projection; NOT a crystal bond-length drawing or unambiguous bond assignment.",
+    "repo_tree_sha": "65725ae2b8b7f25d15ba08e68632198cc0ddc954"
+  },
+  "FSR-477-0477": {
+    "sha": "91b08d448fc9d9aab77296de9005a99bd8526b12",
+    "donor": "O1",
+    "motif": "O_other_unresolved",
+    "held_family": "Zn",
+    "nodes": [
+      [
+        "O1",
+        "O",
+        0,
+        [
+          0,
+          0,
+          0
+        ],
+        0,
+        0
+      ],
+      [
+        "P3",
+        "P",
+        64,
+        [
+          0,
+          0,
+          0
+        ],
+        -1.3702495632,
+        -0.6462683844
+      ],
+      [
+        "Zn1",
+        "Zn",
+        66,
+        [
+          0,
+          1,
+          0
+        ],
+        1.8052540322,
+        -0.5898252373
+      ]
+    ],
+    "context": [
+      [
+        0,
+        1
+      ]
+    ],
+    "contacts": [
+      [
+        2,
+        0,
+        "cov15+crystalnn15"
+      ]
+    ],
+    "source_path": "figure_sources/selected_geometry/FSR-477-0477_geometry.json",
+    "coordinates_note": "Published GitHub SVD 2D display projection; NOT a crystal bond-length drawing or unambiguous bond assignment.",
+    "repo_tree_sha": "65725ae2b8b7f25d15ba08e68632198cc0ddc954"
+  },
+  "ASR-495-0495": {
+    "sha": "da8a2f0d0f673002e7c8217bc0ca7d9e73b14c7a",
+    "donor": "I1",
+    "motif": "halide_FClBrI",
+    "held_family": "Cu",
+    "nodes": [
+      [
+        "I1",
+        "I",
+        16,
+        [
+          0,
+          0,
+          0
+        ],
+        0,
+        0
+      ],
+      [
+        "Cu1",
+        "Cu",
+        96,
+        [
+          1,
+          0,
+          0
+        ],
+        2.3004130613,
+        -1.3213670239
+      ],
+      [
+        "Cu2",
+        "Cu",
+        97,
+        [
+          0,
+          -1,
+          0
+        ],
+        2.3003364117,
+        1.3214991162
+      ]
+    ],
+    "context": [],
+    "contacts": [
+      [
+        1,
+        0,
+        "cov15"
+      ],
+      [
+        2,
+        0,
+        "cov15"
+      ]
+    ],
+    "source_path": "figure_sources/selected_geometry/ASR-495-0495_geometry.json",
+    "coordinates_note": "Published GitHub SVD 2D display projection; NOT a crystal bond-length drawing or unambiguous bond assignment.",
+    "repo_tree_sha": "65725ae2b8b7f25d15ba08e68632198cc0ddc954"
+  },
+  "ASR-700-0700": {
+    "sha": "aad814878deb5aeb8df6759c58307bf587c0a496",
+    "donor": "F1",
+    "motif": "halide_FClBrI",
+    "held_family": "Ni",
+    "nodes": [
+      [
+        "F1",
+        "F",
+        0,
+        [
+          0,
+          0,
+          0
+        ],
+        0,
+        0
+      ],
+      [
+        "Ge1",
+        "Ge",
+        26,
+        [
+          0,
+          0,
+          0
+        ],
+        -1.808181504,
+        0
+      ],
+      [
+        "Ni1",
+        "Ni",
+        27,
+        [
+          0,
+          0,
+          1
+        ],
+        1.985418496,
+        0
+      ]
+    ],
+    "context": [],
+    "contacts": [
+      [
+        1,
+        0,
+        "cov15+crystalnn15"
+      ],
+      [
+        2,
+        0,
+        "cov15+crystalnn15"
+      ]
+    ],
+    "source_path": "figure_sources/selected_geometry/ASR-700-0700_geometry.json",
+    "coordinates_note": "Published GitHub SVD 2D display projection; NOT a crystal bond-length drawing or unambiguous bond assignment.",
+    "repo_tree_sha": "65725ae2b8b7f25d15ba08e68632198cc0ddc954"
+  }
+}

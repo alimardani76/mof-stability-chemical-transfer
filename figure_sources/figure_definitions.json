@@ -1,0 +1,19 @@
+{
+  "upstream_commit": "65725ae2b8b7f25d15ba08e68632198cc0ddc954",
+  "figures": [
+    {"number": 1, "function": "make1", "inputs": ["assets/concept_top.png"], "panels": ["A   Four controlled information blocks", "B   What the validation establishes"], "labels": ["6 variables", "23 variables", "13 variables", "22 variables", "Inherited stability estimates are not direct tests"]},
+    {"number": 2, "function": "make2", "inputs": ["source_data/family_water_ladder.csv"], "panels": ["A    ASR", "B    FSR", "C    ASR", "D    FSR"], "labels": ["Within-family Spearman", "families helped"]},
+    {"number": 3, "function": "make3", "inputs": ["source_data/family_conditional_contributions.csv"], "panels": ["A    Constitution remains complementary", "B    Continuous properties versus metal identity", "C    Donor context and attachment"], "labels": ["Sc (+1.119)", "Mean and family-specific"]},
+    {"number": 4, "function": "make4", "inputs": ["source_data/local_examples.csv", "source_data/local_graphs.json", "assets/helped_illustration.png", "assets/harmed_illustration.png"], "panels": ["A    ASR-1180-1180", "B    ASR-1065-1065"], "labels": ["HELPED", "HARMED", "NOT A VERIFIED CIF", "Saved periodic-image contact graph"]},
+    {"number": 5, "function": "make5", "inputs": ["source_data/structural_summary.csv"], "panels": ["G   Distances / angles", "N   Periodic paths", "V   Local clearance", "H   Coordination spread", "J   Contact covariances"], "labels": ["SOAP", "Kernel ridge", "separate comparison"]},
+    {"number": 6, "function": "make6", "inputs": ["source_data/family_N_paths.csv"], "panels": ["A    Absolute ranking", "B    ASR", "C    FSR"], "labels": ["4 / 13 helped", "4 / 11 helped", "conditional 95% interval", "FSR Zr  (n = 21)"]}
+  ],
+  "reference_support": {
+    "paths": ["figures/support/support_examples_01.pdf", "figures/support/support_examples_02.pdf", "figures/support/support_examples_03.pdf"],
+    "status": "retained reference outputs; original layout not regenerated locally",
+    "renderer": "figure_sources/originals/phase_10_figures.py",
+    "upstream_examples": "figure_sources/panel_data/phase_07/illustrative_examples.csv",
+    "upstream_geometry": "figure_sources/selected_geometry/{structure_record_id}_geometry.json",
+    "local_numerical_inputs": ["figure_sources/source_data/local_examples.csv", "figure_sources/source_data/local_graphs.json"]
+  }
+}

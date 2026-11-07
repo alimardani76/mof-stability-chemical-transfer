@@ -1,0 +1,7 @@
+structure_record_id,local_context,inherited_score,parent_prediction,child_prediction,absolute_error_reduction,selection_caveat
+ASR-1180-1180,Zn · donor context,0.413571429,0.5666952304,0.5395049858,0.02719024454,Preselected from observed errors; illustration only
+ASR-1065-1065,Mn · donor context,0.467859178,0.6346117379,0.6590664948,-0.02445475688,Preselected from observed errors; illustration only
+ASR-13-0013,In · donor context,0.75,0.6930664178,0.6899697416,-0.00309667624,Preselected from observed errors; illustration only
+FSR-477-0477,Zn · attachment,0.4,0.5711544548,0.5131387357,0.05801571913,Preselected from observed errors; illustration only
+ASR-495-0495,Cu · attachment,0.751574468,0.5840257454,0.5517552202,-0.03227052519,Preselected from observed errors; illustration only
+ASR-700-0700,Ni · attachment,0.43,0.6271638167,0.6223702315,0.00479358519,Preselected from observed errors; illustration only

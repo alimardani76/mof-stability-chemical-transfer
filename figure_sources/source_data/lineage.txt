@@ -1,0 +1,7 @@
+Pinned public research commit: https://github.com/alimardani76/mof_stablity_transfer/tree/65725ae2b8b7f25d15ba08e68632198cc0ddc954
+family_water_ladder.csv: condensed rows from figure_sources/panel_data/phase_06/figure_02_absolute.csv. Values rounded to 7 decimals. Data model order B / primary_B_C / B_C_L_cov15 / B_C_L_I_cov15.
+family_conditional_contributions.csv: condensed rows from figure_sources/panel_data/phase_07/primary_family_effects.csv. Values rounded to 6 decimals. Contrasts exact names: properties_minus_identity, composition_given_properties, properties_given_composition, context_given_attachment_cov15, attachment_given_context_cov15.
+family_N_paths.csv: condensed rows from figure_sources/panel_data/phase_09/support_N_family_intervals_source.csv, endpoint=water, protocol=element. Values rounded to 8 decimals. Bootstrap intervals are conditional on saved models; not predictive intervals and exclude refit uncertainty.
+structural_summary.csv: source version 10 author table, numerical values from pinned project research summary. SOAP uses kernel ridge and cannot be treated as an ExtraTrees leaderboard.
+local_examples.csv, local_graphs.json: archival version 10 source tables. The local graphs are two-dimensional saved projections and have not been independently authenticated as source-CIF crystal views.
+All data are inherited student-teacher ranking metrics, NOT experimental water stability measurements.
