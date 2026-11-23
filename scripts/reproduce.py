@@ -44,7 +44,12 @@ def main():
         isolate()
     from manifest import verify
     verify(ROOT / 'data/aggregate/INPUT_SHA256.csv', exact=False)
-    for script in ['figure_sources/make_figures.py', 'scripts/make_tables.py', 'scripts/check_figures.py']:
+    for script in [
+        'figure_sources/make_figures.py',
+        'scripts/make_tables.py',
+        'scripts/check_figures.py',
+        'scripts/check_publication_assets.py',
+    ]:
         sys.argv = [script]
         runpy.run_path(str(ROOT / script), run_name='__main__')
     print('PASS: offline saved-results reproduction completed')

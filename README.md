@@ -1,6 +1,6 @@
 # MOF stability: saved results and figure reproduction
 
-This repository reproduces published numerical summaries and six figures from saved MOF stability-transfer results. It does not independently reproduce the original experiments, train models, or extract descriptors. Numerical findings and scientific interpretations are preserved.
+This repository provides the manuscript artwork, numerical summaries and data-driven plots from saved MOF stability-transfer results. The plotting workflow uses saved predictions and summaries. The linked research archive documents descriptor extraction and model fitting.
 
 ## Install and reproduce
 
@@ -19,7 +19,7 @@ python scripts/reproduce.py --isolated
 python scripts/make_tables.py --check
 ```
 
-The reproduction command regenerates all six figures and three tables, then validates scientific values, labels, panel assignments, dimensions and output completeness. It denies reads of sibling project folders and disables network access. GitHub Actions runs these same commands. To run individual stages:
+The reproduction command regenerates six data-driven figures and three tables, then validates scientific values, labels, panel assignments, dimensions and output completeness. It denies reads of sibling project folders and disables network access. The same command verifies the seven manuscript rasters against their archived checksums. GitHub Actions runs these checks. To run individual stages:
 
 ```text
 python figure_sources/make_figures.py
@@ -29,7 +29,13 @@ python scripts/check_figures.py
 
 `SHA256_MANIFEST.csv` covers distributed files; verify it **before** regeneration. Rendering can differ across platforms despite fixed package versions. `data/aggregate/INPUT_SHA256.csv` is the selected scientific-input slice of the supplied original manifest and remains verifiable after regeneration. After intentional package changes, rebuild the distribution manifest with `python scripts/manifest.py --write`.
 
-## Figure mapping
+## Manuscript artwork
+
+The seven exact raster assets used in the manuscript are in [publication/figures](publication/figures). The [figure index](publication/figure_index.csv) gives their checksums and numerical source files. Figure 1B is explicitly labelled as a schematic based on the saved contact graph. Figure 4A's upper schematic omits the erroneous oxygen label, and the saved local graph retains O21.
+
+The data-driven workflow below regenerates six separately styled plots and three tables. The manuscript rasters are distributed as fixed assets and validated by `scripts/check_publication_assets.py`.
+
+## Data-driven plot mapping
 
 All main figures use `figure_sources/make_figures.py`. There is one output set: `figure_sources/figures/{pdf,svg,png}/Figure_01` through `Figure_06`, with the corresponding extension. Paths below are relative to `figure_sources/`.
 
@@ -40,7 +46,7 @@ All main figures use `figure_sources/make_figures.py`. There is one output set: 
 | 3 / `make3` | `source_data/family_conditional_contributions.csv` | A: constitution controls; B: properties versus identity; C: conditional context/attachment |
 | 4 / `make4` | `source_data/local_examples.csv`, `source_data/local_graphs.json`, `assets/{helped,harmed}_illustration.png` | A: ASR-1180-1180; B: ASR-1065-1065 |
 | 5 / `make5` | `source_data/structural_summary.csv` | G/N/V/H/J summaries; separate SOAP kernel comparison |
-| 6 / `make6` | `source_data/family_N_paths.csv` | A: parent/child ranks; B/C: ASR/FSR family changes and conditional intervals |
+| 6 / `make6` | `source_data/family_N_paths.csv` | A: parent/child Spearman correlations; B/C: ASR/FSR family changes and conditional intervals |
 
 `figure_sources/figure_definitions.json` provides machine-readable inputs and expected panel labels.
 
@@ -66,4 +72,4 @@ Upstream research: https://github.com/alimardani76/mof_stablity_transfer at comm
 
 Targets are inherited model estimates, **not experimental stability measurements**. Family means are unweighted. ASR/FSR are distinct preparation forms, not independent experimental replications; exact AllNodes labels do not establish certified graph novelty. Conditional 95% intervals reuse saved fitted models and omit refit/full model uncertainty. Leave-one-family-out mean ranges are descriptive sensitivity ranges, not confidence intervals. SOAP kernel ridge and the other learners have different comparison definitions.
 
-The three artwork assets are conceptual illustrations, not authenticated structure renderings. Saved atom-labelled graphs are 2D periodic-image contact projections with unresolved CIF-to-record identity; they do not establish bond orders, mechanisms or hydrolysis pathways. Examples were selected after inspecting errors. Rounded summary tables cannot recover upstream observations, complete predictions or uncertainty calculations. This package reproduces saved summaries and graphics without asserting independent experimental or model reproduction.
+The three artwork assets are conceptual illustrations, not authenticated structure renderings. Saved atom-labelled graphs are 2D periodic-image contact projections for the archived records; they do not establish bond orders, mechanisms or hydrolysis pathways. Examples were selected after inspecting errors. Rounded summary tables cannot recover upstream observations, complete predictions or uncertainty calculations. This package reproduces saved summaries and graphics without asserting independent experimental or model reproduction.
