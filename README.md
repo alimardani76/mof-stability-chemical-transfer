@@ -68,8 +68,30 @@ Table fragments use `\Num` from `numbers.tex` and standard `booktabs` commands i
 
 ## Scientific provenance and limitations
 
-Upstream research: https://github.com/alimardani76/mof_stablity_transfer at commit `65725ae2b8b7f25d15ba08e68632198cc0ddc954`. `figure_sources/source_data/lineage.txt` records condensation and rounding. `data/aggregate/SOURCE_FILE_MANIFEST.csv` preserves original source-path metadata; use its `pinned_tree_sha` with `repository_path` to locate the frozen source, rather than its historical moving-branch URLs. Geometry blob identities and derived example checks are retained in the `fig3_*` files.
+Upstream research: https://github.com/alimardani76/mof_stablity_transfer at commit `65725ae2b8b7f25d15ba08e68632198cc0ddc954`. `figure_sources/source_data/lineage.txt` records condensation and rounding. `data/aggregate/SOURCE_FILE_MANIFEST.csv` links directly to the frozen source files. Geometry blob identities and derived example checks are retained in the `fig3_*` files.
 
 Targets are inherited model estimates, **not experimental stability measurements**. Family means are unweighted. ASR/FSR are distinct preparation forms, not independent experimental replications; exact AllNodes labels do not establish certified graph novelty. Conditional 95% intervals reuse saved fitted models and omit refit/full model uncertainty. Leave-one-family-out mean ranges are descriptive sensitivity ranges, not confidence intervals. SOAP kernel ridge and the other learners have different comparison definitions.
 
 The three artwork assets are conceptual illustrations, not authenticated structure renderings. Saved atom-labelled graphs are 2D periodic-image contact projections for the archived records; they do not establish bond orders, mechanisms or hydrolysis pathways. Examples were selected after inspecting errors. Rounded summary tables cannot recover upstream observations, complete predictions or uncertainty calculations. This package reproduces saved summaries and graphics without asserting independent experimental or model reproduction.
+
+
+## Supporting Information figures S5–S7
+
+[The two-page artwork](publication/support/) separates all-solvent-removed and free-solvent-removed records. It preserves the original vector heatmap panels, numerical labels and colour scales. To rebuild the PDFs, install PyMuPDF and run:
+
+```bash
+python publication/support/layout_family_figures.py publication/support/source publication/support
+```
+
+## Historical source filenames
+
+
+The source manifest links to the frozen research commit. Some files retain the figure numbers used when the analyses were assembled.
+
+| File in `data/aggregate/` | Corresponding V16 material |
+| --- | --- |
+| `figure_02_ladder.csv`, `figure_03_increment.csv` | Figure 2 and the primary chemical ladder |
+| `figure_03_examples.csv`, `fig3_full_precision_derived_metrics.csv`, `fig3_github_source_manifest.csv`, `fig3_graph_projection_snapshot.json` | Figure 4 and the examples in the SI |
+| `figure_04_structural.csv` | Figure 5 |
+| `figure_05_endpoints.csv` | Activation and thermal endpoint tables |
+| `figure_05_zr_case.csv` | Figure 6 and the FSR Zr example in the text |
