@@ -1,0 +1,5 @@
+﻿doi,source_location,published_observable,published_value,units,xtb_observable,xtb_value,assessment
+10.1126/science.abj0890,Figure 2A,MOF-303 diffraction primary Site I Owater to two pyrazole N and bridging OH distances,2.797(7);2.887(9);2.798(6),angstrom,MOF-303 Site I optimized distances,2.719;2.911;2.805,Three contacts retained; maximum absolute distance difference 0.078 angstrom
+10.1021/acscentsci.3c00018,SI Figure S6a,MOF-303 periodic one water per asymmetric unit binding energy,-82.4,kJ/mol,MOF-303 single water association,-87.96,Similar magnitude; different loading and finite boundaries
+10.1021/acscentsci.3c00018,SI Figure S6c and 1water.cif,MOF-LA2-1 ZUS(w)-trans trans Owater to two pyrazole N and nearest hydroxyl O,2.73;2.81;2.78,angstrom,MOF-LA2-1 optimized pocket distances,2.720;2.879;2.878,Three contacts retained; compared with a periodic computational realization
+10.1021/acscentsci.3c00018,SI Figure S6c,MOF-LA2-1 ZUS(w)-trans trans periodic one water per asymmetric unit binding energy,-84.6,kJ/mol,MOF-LA2-1 single water association,-89.05,Similar magnitude; different loading and finite boundaries

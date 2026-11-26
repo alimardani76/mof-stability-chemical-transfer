@@ -1,0 +1,39 @@
+{
+  "status": "PASS_BYTES_ONLY",
+  "chemical_validation": "NOT_RUN",
+  "project_root": "D:\\stablity\\p1",
+  "records": [
+    {
+      "record_id": "ASR-84-0084",
+      "archive_member": "SI/CR/ASR/2015[Zn][sql]2[ASR]2.cif",
+      "sha256": "86943c304d37b7369c4f50b9228c1f73b8b0d4464a59f2fe60d5f0d9eaaf3cf3",
+      "source": "D:\\stablity\\p1\\data\\CoREMOF2024DB_SI_20250204.zip::SI/CR/ASR/2015[Zn][sql]2[ASR]2.cif",
+      "output": "D:\\stablity\\p1\\P1_DFT_extension\\raw_cifs\\ASR-84-0084.cif",
+      "status": "byte_verified_only"
+    },
+    {
+      "record_id": "ASR-152-0152",
+      "archive_member": "SI/CR/ASR/2017[Zn][sql]2[ASR]2.cif",
+      "sha256": "ba5212c5ad5528c48ac174e84a5408c83c49d0d64c75c20ea19c2bea121f5a10",
+      "source": "D:\\stablity\\p1\\data\\CoREMOF2024DB_SI_20250204.zip::SI/CR/ASR/2017[Zn][sql]2[ASR]2.cif",
+      "output": "D:\\stablity\\p1\\P1_DFT_extension\\raw_cifs\\ASR-152-0152.cif",
+      "status": "byte_verified_only"
+    },
+    {
+      "record_id": "FSR-78-0078",
+      "archive_member": "SI/CR/FSR/2015[Zn][sql]2[FSR]2.cif",
+      "sha256": "45db2e00414f7ae022327080a57d81de744384b35a6d65082078924c67e5258f",
+      "source": "D:\\stablity\\p1\\data\\CoREMOF2024DB_SI_20250204.zip::SI/CR/FSR/2015[Zn][sql]2[FSR]2.cif",
+      "output": "D:\\stablity\\p1\\P1_DFT_extension\\raw_cifs\\FSR-78-0078.cif",
+      "status": "byte_verified_only"
+    },
+    {
+      "record_id": "FSR-153-0153",
+      "archive_member": "SI/CR/FSR/2017[Zn][sql]2[FSR]1.cif",
+      "sha256": "d022e7e0fff9dcc007ebad5807ec5affbb84e3895c91a36cd2f01913e349f607",
+      "source": "D:\\stablity\\p1\\data\\CoREMOF2024DB_SI_20250204.zip::SI/CR/FSR/2017[Zn][sql]2[FSR]1.cif",
+      "output": "D:\\stablity\\p1\\P1_DFT_extension\\raw_cifs\\FSR-153-0153.cif",
+      "status": "byte_verified_only"
+    }
+  ]
+}

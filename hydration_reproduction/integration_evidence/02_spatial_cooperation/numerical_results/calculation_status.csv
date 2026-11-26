@@ -1,0 +1,11 @@
+calculation,converged,exit_code,seconds,steps,energy_Eh,fixed_shift_A,final_SCC_iterations,xTB_geometry_converged,issue,broken_covalent_edges,changed_H_parent,covalent_intact
+LA2_1_dry,True,0,38.82,25,-407.585468817769,1.0678022639432072e-05,3,True,,,,True
+LA2_1_OH_alternative,False,0,47.14,29,-412.635228467023,0.2315364773903199,3,True,fixed-coordinate drift,,,
+LA2_1_OH_alternative_retry,False,0,53.36,39,-412.677108025356,0.08454109702020984,3,True,fixed-coordinate drift,,,
+LA2_1_published_site,True,0,34.54,22,-412.690194527222,2.3179123600058915e-05,3,True,,,,True
+LA2_1_recovered_dry,True,0,16.59,11,-407.585734412905,2.306644319105544e-06,3,True,,,,True
+MOF303_dry,True,0,15.91,24,-344.179397640324,6.644415489809319e-06,3,True,,,,True
+MOF303_OH_alternative,False,0,82.52,108,-349.242263077326,0.15011942421462976,3,True,fixed-coordinate drift,,,
+MOF303_OH_alternative_retry,False,0,71.16,101,-349.270183710297,0.037011198072930185,3,True,fixed-coordinate drift,,,
+MOF303_published_site,True,0,17.17,20,-349.283501249878,1.2219186490192158e-05,3,True,,,,True
+MOF303_recovered_dry,True,0,8.68,12,-344.179453470211,5.589761660207415e-06,3,True,,,,True

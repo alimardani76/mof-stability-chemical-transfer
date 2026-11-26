@@ -1,0 +1,9 @@
+calculation,converged,exit_code,seconds,steps,energy_Eh,fixed_shift_A,final_SCC_iterations,xTB_geometry_converged,issue,broken_covalent_edges,changed_H_parent,covalent_intact
+Mg_dry,True,0,14.44,33,-193.735720101159,2.4707502930043646e-05,3,True,,,,True
+Mg_linker_O,True,0,9.28,31,-198.837697891442,3.534160676998965e-05,3,True,,,,True
+Mg_open_metal,True,0,18.86,54,-198.837868061993,3.1367304399898543e-05,3,True,,,,True
+Mg_recovered_dry,True,0,9.12,25,-193.732300759318,3.386472393973605e-05,3,True,,,,True
+Zn_dry,True,0,9.92,27,-193.472293099836,2.1243012180427456e-05,3,True,,,,True
+Zn_linker_O,True,0,17.14,46,-198.565675055335,5.4710605559726844e-05,3,True,,,,True
+Zn_open_metal,True,0,18.6,50,-198.565105805974,4.579800314985505e-05,3,True,,,,True
+Zn_recovered_dry,True,0,1.95,10,-193.470717239793,5.017443859944848e-06,3,True,,,,True

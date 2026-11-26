@@ -1,0 +1,6 @@
+﻿doi,source_location,published_observable,published_value,units,xtb_observable,xtb_value,assessment
+10.1021/jacs.6c01686,SI S3.1.1 and Figure S3.2,Periodic 1 H2O per Mg; Mg to water O,2.18,angstrom,Mg open-metal start at endpoint,2.192,Close first-shell geometry under different loading and boundary conditions
+10.1021/jacs.6c01686,SI Table S2.4,Periodic PBE+D3 electronic adsorption at 1 H2O per Mg,-80.1,kJ/mol,Mg best sampled electronic association,-82.98,Similar magnitude; finite charged cluster and periodic loading differ
+10.1021/jacs.6c01686,SI Table S2.4,PBE+D3 plus high-level correction at 1 H2O per Mg,-79.8,kJ/mol,Mg best sampled electronic association,-82.98,Similar magnitude; finite charged cluster and periodic loading differ
+10.1039/C9CE00098D,Local derived FSR-443-0443 coordinates,Archived crystal Mg-water contact,2.077,angstrom,Mg best sampled Mg-water contact,2.192,Same first-shell assignment; hydration loading and lattice differ
+10.1021/cm5038183,Water dissociation experiments,Water dissociation and associated IR signatures,,distinct observable,Zn best sampled molecular association,-59.96 kJ/mol,Noncomparable molecular association versus chemical reaction

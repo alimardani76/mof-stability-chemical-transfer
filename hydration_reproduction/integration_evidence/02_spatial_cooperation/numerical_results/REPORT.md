@@ -1,0 +1,12 @@
+﻿# Cooperative water binding in MOF-303 and MOF-LA2-1
+
+Both are external chemical benchmarks. Five-Al cluster cuts from published periodic models retain the two adjacent pyrazoles and the complete bridging hydroxyl at the primary water site. The two pocket linkers retain their full backbones. Unbound distal carboxyls on those linkers were protonated, and peripheral unbound carboxyls were capped at their aryl or vinyl attachment with H. The resulting closed-shell models have charge −3. Dry references were prepared by removing water from the source pocket geometry to retain identical fixed coordinates. A dry recovery from each relaxed hydrate lowered its reference by 0.15 kJ/mol for MOF-303 and 0.70 kJ/mol for MOF-LA2-1. The MOF-LA2-1 result represents the published ordered ZUS(w)-trans,trans periodic realization of a disordered material.
+
+| Primary pocket | Association (kJ/mol) | O(water) to N1, N2, μ-OH (Å) | Donor–H···acceptor angles (°) |
+|---|---:|---|---|
+| MOF-303 | −87.96 | 2.719, 2.911, 2.805 | 171, 142, 145 |
+| MOF-LA2-1 | −89.05 | 2.720, 2.879, 2.878 | 174, 130, 128 |
+
+The MOF-303 endpoint retained the three Site I contacts identified by single-crystal diffraction. The largest difference from the measured 2.797, 2.887 and 2.798 Å separations was 0.078 Å. Published periodic calculations give one-water binding energies of −82.4 and −84.6 kJ/mol for MOF-303 and this MOF-LA2-1 realization, respectively. These values use periodic loading per asymmetric unit. The 1.08 kJ/mol cluster difference after dry recovery is small for this comparison and the second pocket start for each material failed the fixed-boundary check. The defensible result is geometric. A single water can engage two separate pyrazole groups and a bridging hydroxyl, and the contact geometry can change while the same three contacts persist. This adds a direct example of information in P1’s spatial representations beyond a list of donor groups. [Experimental MOF-303 Site I, Fig. 2A](https://doi.org/10.1126/science.abj0890), [Published MOF-303 geometry inputs](https://doi.org/10.5281/zenodo.5294977), [MOF-LA2-1 ordered configuration and binding energies, SI Fig. S6a,c](https://doi.org/10.1021/acscentsci.3c00018).
+
+Figure a–b show both optimized pocket geometries. Panels c–d show association energies and the three heteroatom separations with the diffraction values for MOF-303. Pale bonds trace the published periodic starting geometry.
